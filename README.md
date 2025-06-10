@@ -58,7 +58,7 @@ npm install
 Create a `.env` file in the project root:
 
 ```env
-MONGO_URI=mongodb+srv://new-user-1:Rushabh2004@cluster0.tyivj4y.mongodb.net/splitapp?retryWrites=true&w=majority
+MONGO_URI=<mongo atlas url>
 PORT=3000
 ```
 
@@ -75,7 +75,7 @@ npm run dev
 1. **Push code** to a public GitHub repository.  
 2. Log in to **Railway.app** → **New Project** → **Deploy from GitHub**.  
 3. In the **Variables** tab, add:  
-   - `MONGO_URI` – mongodb+srv://new-user-1:Rushabh2004@cluster0.tyivj4y.mongodb.net/splitapp?retryWrites=true&w=majority  
+   - `MONGO_URI` – `mongo atlas url`  
    - `PORT` – `3000`  
 4. Click **Deploy** – Railway will build, install dependencies, and serve the app at a URL like  
    `https://split-app-backend-production-c593.up.railway.app`.  
