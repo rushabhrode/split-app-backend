@@ -18,7 +18,6 @@ Built with **Node.js + Express**, stores data in **MongoDB Atlas**, and is deplo
 
 ---
 
----
 ## Types of Splitting supported 
 
 | `type` value | How the backend interprets it                        | Example in the `shares` array                               |
