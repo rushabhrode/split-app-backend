@@ -18,6 +18,16 @@ Built with **Node.js + Express**, stores data in **MongoDB Atlas**, and is deplo
 
 ---
 
+---
+## Types of Splitting supported 
+
+| `type` value | How the backend interprets it                        | Example in the `shares` array                               |
+| ------------ | ---------------------------------------------------- | ----------------------------------------------------------- |
+| `equal`      | Each listed person owes an equal share of the total. | `{ "person": "Om", "type": "equal" }`                       |
+| `percentage` | Each person owes `value %` of the total.             | `{ "person": "Sanket", "type": "percentage", "value": 40 }` |
+| `exact`      | Each person owes the exact rupee amount in `value`.  | `{ "person": "Shantanu", "type": "exact", "value": 250 }`   |
+
+---
 ## 2 · Live Demo
 
 | Environment | Base URL |
