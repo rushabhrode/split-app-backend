@@ -102,8 +102,7 @@ npm run dev
 | PUT    | `/expenses/:id` | Update an expense       | 200 OK  |
 | DELETE | `/expenses/:id` | Delete an expense       | 204 No Content |
 
-<details>
-  <summary>💡 Sample <code>POST /expenses</code></summary>
+<summary>💡 Sample <code>POST /expenses</code></summary>
 
 
 POST /expenses
@@ -121,7 +120,6 @@ Content-Type: application/json
   ]
 }
 ```
-</details>
 
 ### 6.2 · Group Insights
 
