@@ -189,7 +189,7 @@ src/
 └─ package.json
 ```
 
-## 11 · SChecklist ✅
+## 11 · Checklist ✅
 
 - **GitHub repo** – <https://github.com/rushabhrode/split-app-backend>  
 - **Railway deploy** – <https://split-app-backend-production-c593.up.railway.app>  
