@@ -145,7 +145,7 @@ Content-Type: application/json
 4. Output an array of transactions:  
    ```json
    [{ "from": "Debtor", "to": "Creditor", "amount": 42.50 }, ...]
-```
+   ```
 
 ## 8 · Validation & Error Handling
 
